@@ -26,5 +26,30 @@ This Todo App allows users to manage daily tasks efficiently. Users can add, com
 
 ---
 
-## 🧩 Component Structure
+##  Component Structure
+
+App
+├── TodoForm (Add new todos)
+├── TodoList (Display todo list)
+│ └── TodoItem (Single todo item)
+├── FilterButtons (All / Active / Completed)
+└── TodoCount (Remaining tasks count)
+
+---
+
+##  Technologies Used
+
+- React.js
+- JavaScript (ES6+)
+- React Hooks (`useState`)
+- CSS (basic styling)
+
+---
+
+##  How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/day7-mini-project-todo-app.git
+
 
